@@ -1,0 +1,3 @@
+DB_NAME=cultural_florida_db
+DB_USER=root
+DB_PW=password
