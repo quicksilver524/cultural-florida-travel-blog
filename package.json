@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/quicksilver524/cultural-florida-travel-blog.git"
   },
+<<<<<<< HEAD
+=======
+  "keywords": [],
+>>>>>>> ab9c70daad8482aec4999d352169f85917d4e7c0
   "author": "",
   "license": "ISC",
   "bugs": {
