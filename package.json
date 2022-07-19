@@ -1,11 +1,18 @@
 {
   "name": "cultural-florida-travel-blog",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "## Purpose",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+=======
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 2801e80d582edcd8b7597351d0878098bd9bc6be
   },
   "repository": {
     "type": "git",
