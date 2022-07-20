@@ -1,17 +1,17 @@
 {
   "name": "cultural-florida-travel-blog",
   "version": "1.0.0",
-  "description": "## Purpose",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/quicksilver524/cultural-florida-travel-blog.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
