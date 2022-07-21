@@ -2,9 +2,9 @@ const {Post} = require('../models');
 
 const postdata = [
     {
-        title: 'drink',
-        cover_url: 'https://images.unsplash.com/photo-1634153504290-8f258fe41701?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2225&q=80',
-        post_body: 'It’s time to indulge, and throw yourself into the world of culinary photography — with shots of elaborate dinner parties, decadent pastries and more.',
+        title: 'St. Augustine Fountain of Youth',
+        cover_url: 'https://www.floridashistoriccoast.com/things-to-do/history/fountain-youth/',
+        post_body: ' Beautiful historic place, loved visiting, left looking 5 years younger!',
         view_count: 10,
         user_id: 1
     }, {
