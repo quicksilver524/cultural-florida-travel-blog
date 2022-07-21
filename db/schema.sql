@@ -1,3 +1,2 @@
-DB_NAME=cultural_florida_db
-DB_USER=root
-DB_PW=password
+DROP DATABASE IF EXISTS cultural_florida_db;
+CREATE DATABASE cultural_florida_db;
