@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +9,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>Cultural Florida Travel Blog</title>
 </head>
+
 <body>
-    <header>
-        <h1>Cultural Florida Travel Blog</h1>
-        <h3>Experience the Beauty of Florida</h3>
-        <nav class="nav-bar">
-            <a href="#home">Home</a>
-            {{#if loggedIn}}
-            <a href="#logout">Logout</a>
-            {{else}}
-            <a href="#login">Login</a>
-            {{/if}}
-        </nav>
-    </header>
-    <main>
-      {{{body}}}  
-    </main>
-    
+    <div class="wrapper">
+        <header>
+            <h1>
+                <a href="/">Cultural Florida Travel Blog</a>
+            </h1>
+            <h3>Experience the Beauty of Florida</h3>
+            <nav class="nav-bar">
+
+                {{#if loggedIn}}
+                <a href="/dashboard">dashboard</a>
+                <button id="logout" class="btn-no-style">logout</button>
+                {{else}}
+                <a href="/login">login</a>
+                <a href="/signup">signup</a>
+                {{/if}}
+            </nav>
+        </header>
+        <main>
+            {{{body}}}
+        </main>
+
+        <footer>
+            Thanks for visiting Cultural Florida!
+        </footer>
+    </div>
+     {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
 </body>
+
 </html>
