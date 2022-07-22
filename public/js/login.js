@@ -10,12 +10,13 @@ async function loginFormHandler(event) {
             body: JSON.stringify({
                 email,
                 password
-            })
+            }),
+            headers: {'Content-Type': 'application/json'}
         });
         if (response.ok) {
             document.location.replace('/dashboard')
         } else {
-            alert('Email or Password is incorrect, please try again')
+            alert('Email or Password is incorrect, please try again.')
         }
     }
 }
