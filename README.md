@@ -66,7 +66,9 @@ This project is developed to improve learning about Florida and its many unique 
 
 ## Questions
 
-Created by: [Jeremy](https://github.com/quicksilver524) - ![ss-1](images/ss-1.png)
+## Created by: 
+
+  [Jeremy](https://github.com/quicksilver524) - ![ss-1](images/ss-1.png)
 
   [Lindsey](https://github.com/LindseyHsiao) - ![ss-23](images/ss-2.png)
 
