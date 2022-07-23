@@ -66,19 +66,14 @@ This project is developed to improve learning about Florida and its many unique 
 
 ## Questions
 
-Created by: [Jeremy](https://github.com/quicksilver524)
-- ![ss-1](images/ss-1.png)
+Created by: [Jeremy](https://github.com/quicksilver524) - ![ss-1](images/ss-1.png)
 
-  [Lindsey](https://github.com/LindseyHsiao)
-- ![ss-23](images/ss-2.png)
+  [Lindsey](https://github.com/LindseyHsiao) - ![ss-23](images/ss-2.png)
 
-  [Mateo](https://github.com/MateoCapx)
-- ![ss-3](images/ss-3.png)
+  [Mateo](https://github.com/MateoCapx) - ![ss-3](images/ss-3.png)
 
-  [Lepeng Z.](https://github.com/goforward-z)
-- ![ss-4](images/ss-4.png)
+  [Lepeng Z.](https://github.com/goforward-z) - ![ss-4](images/ss-4.png)
 
-  [Carly](https://github.com/cdonais)
-- ![ss-5](images/ss-5.png)
+  [Carly](https://github.com/cdonais) - ![ss-5](images/ss-5.png)
 
 If you have any further questions please feel free to contact me at [quicksilver524@gmail.com](quicksilver524@gmail.com)
