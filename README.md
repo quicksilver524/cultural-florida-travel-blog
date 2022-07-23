@@ -14,7 +14,7 @@ This is a front and backend for a blog site to share different cultural areas in
 - [Installation](#installation)
 - [Usage](#usage)
 - [Instructions](#instructions)
-- [Created by](#Created by:)
+- [Created by](#Created_by)
 - [Questions](#questions)
 
 ## Installation
@@ -65,7 +65,7 @@ This project is developed to improve learning about Florida and its many unique 
   - http://localhost:3001/api/post
   - http://localhost:3001/api/post/:id (required to delete, update, or just to read one category)
 
-## Created by: 
+## Created by 
 
   [Jeremy](https://github.com/quicksilver524) - ![ss-1](images/ss-1.png)
 
