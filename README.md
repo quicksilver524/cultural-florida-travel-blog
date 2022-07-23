@@ -14,7 +14,7 @@ This is a front and backend for a blog site to share different cultural areas in
 - [Installation](#installation)
 - [Usage](#usage)
 - [Instructions](#instructions)
-- [Created by](#Created by)
+- [Created by](#Created by:)
 - [Questions](#questions)
 
 ## Installation
