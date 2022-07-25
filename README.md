@@ -64,19 +64,23 @@ This project is developed to improve learning about Florida and its many unique 
 * Step 10: You can create, read, update, and delete categories, tags, and products using these urls:
   - http://localhost:3001/api/post
   - http://localhost:3001/api/post/:id (required to delete, update, or just to read one category)
+  - http://localhost:3001/api/users
+  - http://localhost:3001/login
 
-## Created-by 
+## Created-by
 
-  [Jeremy](https://github.com/quicksilver524) - ![ss-1](images/ss-1.png)
+- (tap name for user profile)
 
-  [Lindsey](https://github.com/LindseyHsiao) - ![ss-23](images/ss-2.png)
+[Jeremy](https://github.com/quicksilver524) - ![ss-1](images/ss-1.png)
 
-  [Mateo](https://github.com/MateoCapx) - ![ss-3](images/ss-3.png)
+[Lindsey](https://github.com/LindseyHsiao) - ![ss-23](images/ss-2.png)
 
-  [Lepeng Z.](https://github.com/goforward-z) - ![ss-4](images/ss-4.png)
+[Mateo](https://github.com/MateoCapx) - ![ss-3](images/ss-3.png)
 
-  [Carly](https://github.com/cdonais) - ![ss-5](images/ss-5.png)
-  
-  ## Questions
+[Lepeng Z.](https://github.com/goforward-z) - ![ss-4](images/ss-4.png)
+
+[Carly](https://github.com/cdonais) - ![ss-5](images/ss-5.png)
+
+## Questions
 
 If you have any further questions please feel free to contact us at [quicksilver524@gmail.com](quicksilver524@gmail.com)
