@@ -76,7 +76,7 @@ This project is developed to improve learning about Florida and its many unique 
 
   [Lepeng Z.](https://github.com/goforward-z) - ![ss-4](images/ss-4.png)
 
-  [ Carly ](https://github.com/cdonais) - ![ss-5](images/ss-5.png)
+  [Carly](https://github.com/cdonais) - ![ss-5](images/ss-5.png)
   
   ## Questions
 
