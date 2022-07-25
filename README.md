@@ -66,7 +66,7 @@ This project is developed to improve learning about Florida and its many unique 
   - http://localhost:3001/api/post/:id (required to delete, update, or just to read one category)
 
 ## Created-by 
-     -  (tap name for user profile)
+-  (tap name for user profile)
 
   [Jeremy](https://github.com/quicksilver524) - ![ss-1](images/ss-1.png)
 
@@ -76,7 +76,7 @@ This project is developed to improve learning about Florida and its many unique 
 
   [Lepeng Z.](https://github.com/goforward-z) - ![ss-4](images/ss-4.png)
 
-  [Carly](https://github.com/cdonais) - ![ss-5](images/ss-5.png)
+  [ Carly ](https://github.com/cdonais) - ![ss-5](images/ss-5.png)
   
   ## Questions
 
