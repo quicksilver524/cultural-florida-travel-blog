@@ -65,6 +65,8 @@ This project is developed to improve learning about Florida and its many unique 
   - http://localhost:3001/api/post
   - http://localhost:3001/api/post/:id (required to delete, update, or just to read one category)
   - http://localhost:3001/api/users
+  - http://localhost:3001/login
+  - 
 
 ## Created-by 
 -  (tap name for user profile)
