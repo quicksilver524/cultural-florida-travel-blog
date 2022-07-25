@@ -64,7 +64,7 @@ This project is developed to improve learning about Florida and its many unique 
 * Step 10: You can create, read, update, and delete categories, tags, and products using these urls:
   - http://localhost:3001/api/post
   - http://localhost:3001/api/post/:id (required to delete, update, or just to read one category)
-  -   - http://localhost:3001/api/users
+  - http://localhost:3001/api/users
 
 ## Created-by 
 -  (tap name for user profile)
