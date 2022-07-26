@@ -2,7 +2,8 @@ async function newFormHandler(event) {
     event.preventDefault();
   
     const title = document.querySelector('input[name="post-title"]').value;
-    const post_url = document.querySelector('input[name="post-url"]').value;
+    const post_cover_url = document.querySelector('input[name="post_cover_url"]').value;
+    const bodyHtml = $('#summernote').summernote('code');
   
     const response = await fetch(`/api/posts`, {
       method: 'POST',
