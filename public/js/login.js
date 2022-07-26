@@ -1,15 +1,15 @@
 async function loginFormHandler(event) {
     event.preventDefault();
-console.log('login form handler running')
+
     const email = document.querySelector('#email-login').value.trim();
     const password = document.querySelector('#password-login').value.trim();
 
-    if (email && password) {
-        const response = await fetch('/', {
+    // if (email && password) {
+        const response = await fetch('/api/users/login', {
             method: 'post',
             body: JSON.stringify({
-                email,
-                password
+                email: email,
+                password: password
             }),
             headers: {'Content-Type': 'application/json'}
         });
@@ -19,6 +19,6 @@ console.log('login form handler running')
         } else {
             alert('Email or Password is incorrect, please try again.')
         }
-    }
+    // }
 }
-document.querySelector('.login-form').addEventListener('click', loginFormHandler);
+document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
