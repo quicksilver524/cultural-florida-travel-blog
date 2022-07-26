@@ -1,5 +1,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/quicksilver524/cultural-florida-travel-blog)
-[![Top Langs](https://img.shields.io/github/languages/top/quicksilver524/cultural-florida-travel-blog/api/top-langs/?username=quicksilver524&theme=dracula)](https://github.com/quicksilver524/github-readme-stats)
+![Top Langs](https://img.shields.io/github/languages/top/quicksilver524/cultural-florida-travel-blog/api/top-langs/?username=quicksilver524&theme=dracula)
+![readme stats Langs](https://github.com/quicksilver524/github-readme-stats)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/quicksilver524/cultural-florida-travel-blog)
 ![GitHub issues](https://img.shields.io/github/issues/quicksilver524/cultural-florida-travel-blog)
 ![YouTube Video Views](https://img.shields.io/youtube/views/)
