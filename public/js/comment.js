@@ -27,7 +27,7 @@ async function commentFormHandler(event) {
     }
   }
   
-  document.querySelector('.comment-form').addEventListener('submit', commentFormHandler);
+  document.querySelector('.comment-form') ? document.querySelector('.comment-form').addEventListener('submit', commentFormHandler) : "";
 
 
   //14.3.5 Replace the console.log() statement with the following code:
