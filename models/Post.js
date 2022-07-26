@@ -68,11 +68,8 @@ Post.init(
       allowNull: false,
     },
     post_body: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        isURL: false,
-      },
     },
     user_id: {
       type: DataTypes.INTEGER,
@@ -83,7 +80,6 @@ Post.init(
     },
     view_count: {
       type: DataTypes.INTEGER,
-      allowNull: false,
       default: 0,
     },
   },
