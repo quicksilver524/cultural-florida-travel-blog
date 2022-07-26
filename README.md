@@ -1,4 +1,5 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/quicksilver524/cultural-florida-travel-blog)
+[![Top Langs](https://img.shields.io/github/languages/top/quicksilver524/cultural-florida-travel-blog/api/top-langs/?username=quicksilver524&theme=dracula)](https://github.com/quicksilver524/github-readme-stats)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/quicksilver524/cultural-florida-travel-blog)
 ![GitHub issues](https://img.shields.io/github/issues/quicksilver524/cultural-florida-travel-blog)
 ![YouTube Video Views](https://img.shields.io/youtube/views/)
@@ -65,18 +66,18 @@ This project is developed to improve learning about Florida and its many unique 
   - http://localhost:3001/api/post
   - http://localhost:3001/api/post/:id (required to delete, update, or just to read one category)
 
-## Created-by 
+## Created-by
 
-  [Jeremy](https://github.com/quicksilver524) - ![ss-1](images/ss-1.png)
+[Jeremy](https://github.com/quicksilver524) - ![ss-1](images/ss-1.png)
 
-  [Lindsey](https://github.com/LindseyHsiao) - ![ss-23](images/ss-2.png)
+[Lindsey](https://github.com/LindseyHsiao) - ![ss-23](images/ss-2.png)
 
-  [Mateo](https://github.com/MateoCapx) - ![ss-3](images/ss-3.png)
+[Mateo](https://github.com/MateoCapx) - ![ss-3](images/ss-3.png)
 
-  [Lepeng Z.](https://github.com/goforward-z) - ![ss-4](images/ss-4.png)
+[Lepeng Z.](https://github.com/goforward-z) - ![ss-4](images/ss-4.png)
 
-  [Carly](https://github.com/cdonais) - ![ss-5](images/ss-5.png)
-  
-  ## Questions
+[Carly](https://github.com/cdonais) - ![ss-5](images/ss-5.png)
+
+## Questions
 
 If you have any further questions please feel free to contact us at [quicksilver524@gmail.com](quicksilver524@gmail.com)
