@@ -91,7 +91,7 @@ router.get('/:id', (req, res) => {
         });
 });
 
-router.post('/', withAuth, (req, res) => {
+router.post('/', (req, res) => {
     // expects {title: 'Taskmaster goes public!', post_url: 'https://taskmaster.com/press', user_id: 1}
     Post.create({
         title: req.body.title,
@@ -107,7 +107,7 @@ router.post('/', withAuth, (req, res) => {
         });
 });
 
-router.put('/upvote', withAuth, (req, res) => {
+router.put('/upvote', (req, res) => {
     // custom static method created in models/Post.js
     Post.upvote({...req.body, user_id: req.session.user_id}, {Vote, Comment, User})
         .then(updatedVoteData => res.json(updatedVoteData))
@@ -117,7 +117,7 @@ router.put('/upvote', withAuth, (req, res) => {
         });
 });
 
-router.put('/upview', withAuth, (req, res) => {
+router.put('/upview', (req, res) => {
     // custom static method created in models/Post.js
     Post.upview({...req.body, user_id: req.session.user_id}, {Vote, Comment, User})
         .then(updatedVoteData => res.json(updatedVoteData))
@@ -127,7 +127,7 @@ router.put('/upview', withAuth, (req, res) => {
         });
 });
 
-router.put('/:id', withAuth, (req, res) => {
+router.put('/:id', (req, res) => {
 
     let needModifyObj = _.pick(req.body, ['title', 'cover_url', 'user_id', 'post_body']);
 
