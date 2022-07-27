@@ -4,46 +4,54 @@ const sequelize = require("../config/connection");
 // create our Post model
 class Post extends Model {
   static upview(body, models) {
-console.log(body);
-      return this.increment(
-          'view_count',
-          {
-              where: {id: body.post_id},
-              by: 1
-          }
-      );
-  };
+    console.log(body);
+    return this.increment("view_count", {
+      where: { id: body.post_id },
+      by: 1,
+    });
+  }
 
   static upvote(body, models) {
-      return models.Vote.create({
-          user_id: body.user_id,
-          post_id: body.post_id
-      }).then(() => {
-          return Post.findOne({
-              where: {
-                  id: body.post_id
-              },
-              attributes: [
-                  'id',
-                  'title',
-                  'cover_url',
-                  'post_body',
-                  'view_count',
-                  'created_at',
-                  [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
-              ],
-              include: [
-                  {
-                      model: models.Comment,
-                      attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
-                      include: {
-                          model: models.User,
-                          attributes: ['username']
-                      }
-                  }
-              ]
-          });
+    return models.Vote.create({
+      user_id: body.user_id,
+      post_id: body.post_id,
+    }).then(() => {
+      return Post.findOne({
+        where: {
+          id: body.post_id,
+        },
+        attributes: [
+          "id",
+          "title",
+          "cover_url",
+          "post_body",
+          "view_count",
+          "created_at",
+          [
+            sequelize.literal(
+              "(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)"
+            ),
+            "vote_count",
+          ],
+        ],
+        include: [
+          {
+            model: models.Comment,
+            attributes: [
+              "id",
+              "comment_text",
+              "post_id",
+              "user_id",
+              "created_at",
+            ],
+            include: {
+              model: models.User,
+              attributes: ["username"],
+            },
+          },
+        ],
       });
+    });
   }
 }
 
@@ -68,7 +76,7 @@ Post.init(
       allowNull: false,
     },
     post_body: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     user_id: {
