@@ -3,7 +3,26 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+h3 {
+  font-family: "dancing script", cursive;
+  color: white;
+}
 
+li {
+  list-style: none;
+}
+/* .post {
+    padding: 5px;
+    border-radius: 10%;
+} */
+.login-form,
+.signup-form,
+.new-post-form {
+  background-color: white;
+  padding: 5px;
+  margin: auto;
+}
 * {
   box-sizing: border-box;
 }
@@ -58,12 +77,6 @@ button:hover {
   color: #225ca3;
 }
 
-.title img {
-  padding: 10px 0 10px 0;
-  width: 50%;
-  height: 60%;
-}
-
 textarea,
 input {
   padding: 0.5%;
@@ -114,6 +127,7 @@ header h3 {
   font-weight: bold;
   margin: auto;
   justify-content: center;
+  color: rgb(255, 200, 133);
 }
 
 .nav-bar a {
@@ -133,14 +147,14 @@ header h3 {
 }
 
 .nav-bar h1 {
-  font-size: 16px;
+  font-size: 35px;
   font-weight: bold;
   margin: auto auto auto 15px;
   padding-bottom: 15px;
 }
 
 .nav-bar h1 a {
-  color: rgb(67, 65, 65);
+  color: rgb(255, 255, 255);
 }
 main {
   flex: 1;
@@ -163,6 +177,8 @@ main {
 .btn-no-style:hover {
   background: none;
   color: #3486eb;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
 }
 
 .delete-post-btn {
@@ -170,7 +186,21 @@ main {
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: #0052bd;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+.save-post-btn:hover {
+  background-color: #b90900;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+.bck-to-dash-btn:hover {
+  color: #f5b536;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
 }
 
 .post {
@@ -185,9 +215,19 @@ main {
   color: #7d7d7d;
 }
 
+.note-video-clip {
+  width: 100%;
+  height: 500px;
+}
+
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
+}
+
+.edit-link:hover {
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
 }
 
 .upvote-btn {
@@ -197,6 +237,8 @@ main {
 
 .upvote-btn:hover {
   background-color: #1f9c13;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
 }
 
 .comment-form {
@@ -208,8 +250,24 @@ main {
   margin-bottom: 1%;
 }
 
+.submitbtn:hover {
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+.card-action a:hover {
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+
 .comment:nth-child(odd) {
   background-color: #fff5eb;
+}
+
+.btn:hover {
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  color: #d13b19;
 }
 
 .comment .meta {
