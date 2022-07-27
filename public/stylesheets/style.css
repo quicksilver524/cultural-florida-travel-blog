@@ -13,7 +13,7 @@ h3 {
     padding: 5px;
     border-radius: 10%;
 } */
-.login-form, .signup-form, .new-post-form, .post{
+.login-form, .signup-form, .new-post-form{
     background-color: white;
     padding: 5px;
     margin: auto;
