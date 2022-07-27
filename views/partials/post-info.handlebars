@@ -1,14 +1,18 @@
 <article class="post">
   <div class="title">
-    <a href="/post/{{id}}">{{title}}</a><br/>
-    <img height="500px" src="{{cover_url}}" width="50%">
-      <br/>
-      {{{post_body}}}
+    <a href="/post/{{id}}">{{title}}</a><br />
+    <img height="500px" src="{{cover_url}}" width="50%" />
+    <br />
+    {{{post_body}}}
+    <div class="meta">
+      Created by
+      {{user.username}}
+      on
+      {{created_at}}
+      |
+      <a href="/post/{{id}}">{{comments.length}} comment(s)</a>| vote{{vote_count}}
+      time(s)
+    </div>
   </div>
-  <div class="meta">
-    Created by {{user.username}} on
-    {{created_at}}
-    |
-    <a href="/post/{{id}}">{{comments.length}} comment(s)</a>| vote{{vote_count}} time(s)
-  </div>
+
 </article>
