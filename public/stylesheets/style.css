@@ -292,3 +292,22 @@ footer {
   padding: 1%;
   font-size: 110%;
 }
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-bar h1 a {
+    display: flex;
+    justify-content: center;
+    font-size: 45%;
+  }
+}
