@@ -237,6 +237,7 @@ main {
 
 .note-video-clip {
   padding: 10px 0 50px 0;
+  margin: auto;
 }
 
 .new-post-form input {
