@@ -8,14 +8,12 @@ h3 {
     font-family: 'dancing script', cursive;
     color: white;
 }
-background-image{
-    opacity: 0.5;
-}
-.post {
+
+/* .post {
     padding: 5px;
     border-radius: 10%;
-}
-.login-form, .signup-form {
+} */
+.login-form, .signup-form, .new-post-form, .post{
     background-color: white;
     padding: 5px;
     margin: auto;
