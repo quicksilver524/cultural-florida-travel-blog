@@ -1,6 +1,6 @@
 
 <article>
-  <a href="/dashboard"> &larr; Back to dashboard</a>
+  <a href="/dashboard" class="bck-to-dash-btn"> &larr; Back to dashboard</a>
   <h2>
     Edit Post
   </h2>
@@ -23,7 +23,7 @@
       |
       <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>
-    <button type="submit">Save post</button>
+    <button type="submit" class="save-post-btn">Save post</button>
     <button type="button" class="delete-post-btn">Delete post</button>
   </form>
 </article>
