@@ -231,13 +231,8 @@ main {
 .comment .meta {
   font-size: 90%;
   font-weight: bold;
-  margin-bottom: 0.5%;
+  margin: 100px 0 100px 0;
   opacity: 0.6;
-}
-
-.note-video-clip {
-  padding: 10px 0 50px 0;
-  margin: auto;
 }
 
 .new-post-form input {
