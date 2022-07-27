@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Post, User, Comment } = require('../models');
+const sequelize = require("../config/connection");
 
 router.get('/', (req, res) => {
   Post.findAll({
@@ -20,12 +21,31 @@ router.get('/', (req, res) => {
   router.get('/post/:id', (req, res) => {
     Post.findOne({
       where: {
-        id: req.params.id
+        id: req.params.id,
       },
-      include: [User, {
-        model: Comment,
-        include: [User]
-      }]
+      attributes: [
+        'id',
+        'title',
+        'cover_url',
+        'post_body',
+        'view_count',
+        'created_at',
+        [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
+      ],
+      include: [
+        {
+          model: Comment,
+          attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+          include: {
+            model: User,
+            attributes: ['username']
+          }
+        },
+        {
+          model: User,
+          attributes: ['username']
+        }
+      ],
     })
       .then(dbPostData => {
         if (!dbPostData) {
