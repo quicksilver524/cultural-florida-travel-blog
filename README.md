@@ -61,12 +61,9 @@ This project is developed to improve learning about Florida and its many unique 
 
 * ![step-9](images/step-9.png)
 
-* Step 10: You can create, read, update, and delete categories, tags, and products using these urls:
-  - http://localhost:3001/api/post
-  - http://localhost:3001/api/post/:id (required to delete, update, or just to read one category)
-  - http://localhost:3001/api/users
-  - http://localhost:3001/login
-  -
+* Step 10: You can create, edit, and delete your posts; upvote, leave comments, login, signup, and logout.
+  you can only comment if logged in but you can view comments from those who previously commented without loging in. Only the admin and the user can modify posts and comments after posted.
+  [To view our page](https://calm-eyrie-85145.herokuapp.com/)
 
 ## Created-by
 
