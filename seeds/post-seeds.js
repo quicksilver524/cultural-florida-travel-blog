@@ -4,7 +4,7 @@ const postdata = [
   {
     title: "St. Augustine Fountain of Youth",
     cover_url:
-      "https://www.floridashistoriccoast.com/things-to-do/history/fountain-youth/",
+      "https://www.visitstaugustine.com/sites/default/files/todo/foyarch2015-adj-10x6-web.jpg",
     post_body:
       " Beautiful historic place, loved visiting, left looking 5 years younger!",
     view_count: 10,
@@ -13,7 +13,7 @@ const postdata = [
   {
     title: "Reef scuba diving",
     cover_url:
-      "https://www.tripadvisor.com/Attraction_Review-g34344-d142786-Reviews-Molasses_Reef-Key_Largo_Florida_Keys_Florida.html",
+      "https://s3-us-west-2.amazonaws.com/imgds360live/product_images/3545331/part_images/1597870247.jpeg",
     post_body:
       "Easily accessible, Molasses Reef Sanctuary Preservation Area is the most heavily visited reef in the Upper Keys – perhaps the world – for diving. Molasses is famous for its clear water, many fish, and numerous boulder corals. It is a classic outer reef with a well-defined spur and groove system of coral development. At the central portion of Molasses, offshore of the light, are a large ship's winch and historic Spanish anchor.",
     view_count: 16,

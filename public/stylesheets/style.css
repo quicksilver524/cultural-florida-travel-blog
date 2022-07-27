@@ -60,6 +60,8 @@ button:hover {
 
 .title img {
   padding: 10px 0 10px 0;
+  width: 50%;
+  height: 60%;
 }
 
 textarea,
