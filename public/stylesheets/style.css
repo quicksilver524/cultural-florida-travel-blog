@@ -3,7 +3,21 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+h3 {
+    font-family: 'dancing script', cursive;
+    color: white;
+}
 
+/* .post {
+    padding: 5px;
+    border-radius: 10%;
+} */
+.login-form, .signup-form, .new-post-form{
+    background-color: white;
+    padding: 5px;
+    margin: auto;
+}
 * {
   box-sizing: border-box;
 }
