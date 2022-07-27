@@ -231,11 +231,11 @@ main {
 .comment .meta {
   font-size: 90%;
   font-weight: bold;
-  margin: 10px 0 10px 0;
+  margin-bottom: 0.5%;
   opacity: 0.6;
 }
 
-.meta {
+.note-video-clip {
   padding: 10px 0 50px 0;
 }
 
