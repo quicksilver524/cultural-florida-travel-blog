@@ -68,10 +68,6 @@ button:hover {
   font-size: 1.2em;
 }
 
-.title p iframe {
-  padding: 10px 0 50px 0;
-}
-
 .title a {
   font-size: 1.8em;
   font-weight: bolder;
@@ -237,6 +233,11 @@ main {
   font-weight: bold;
   margin-bottom: 0.5%;
   opacity: 0.6;
+  padding: 10px 0 50px 0;
+}
+
+.meta {
+  padding: 10px 0 50px 0;
 }
 
 .new-post-form input {
