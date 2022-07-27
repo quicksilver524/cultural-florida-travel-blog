@@ -231,8 +231,12 @@ main {
 .comment .meta {
   font-size: 90%;
   font-weight: bold;
-  margin: 100px 0 100px 0;
+  margin-bottom: 0.5%;
   opacity: 0.6;
+}
+
+main section li article div {
+  margin-bottom: 1%;
 }
 
 .new-post-form input {
