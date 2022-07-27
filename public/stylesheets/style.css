@@ -260,6 +260,15 @@ main {
   font-size: 20px;
 }
 
+.card-content {
+  font-size: 15px;
+}
+
+.card-image a {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
 .comment:nth-child(odd) {
   background-color: #fff5eb;
 }
