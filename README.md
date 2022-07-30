@@ -16,7 +16,6 @@ This is a front and backend for a blog site to share different cultural areas in
 - [Walkthrough-Video](#Walkthrough-Video)
 - [Instructions](#instructions)
 - [Step-10-website-heroku-deployment](#Step-10-website-heroku-deployment)
-- [Youtube-channel](Youtube-page)
 - [Created by](#Created-by)
 - [Questions](#questions)
 
@@ -94,5 +93,5 @@ This project is developed to improve learning about Florida and its many unique 
 
 ## Questions
 
-If you have any further questions please feel free to contact us at [quicksilver524@gmail.com](quicksilver524@gmail.com)
-If you have any further questions please feel free to contact us at [zlepeng@yahoo.com](zlepeng@yahoo.com)
+- If you have any further questions please feel free to contact us at [quicksilver524@gmail.com](quicksilver524@gmail.com)
+- If you have any further questions please feel free to contact us at [zlepeng@yahoo.com](zlepeng@yahoo.com)
