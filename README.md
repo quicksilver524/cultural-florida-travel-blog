@@ -15,7 +15,7 @@ This is a front and backend for a blog site to share different cultural areas in
 - [Usage](#usage)
 - [Walkthrough-Video](#Walkthrough-Video)
 - [Instructions](#instructions)
-- [Website-heroku-deployment](#Step-10-website-heroku-deployment)
+- [Website-heroku-deployment](#Website-heroku-deployment)
 - [Created by](#Created-by)
 - [Questions](#questions)
 
