@@ -1,7 +1,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/quicksilver524/cultural-florida-travel-blog)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/quicksilver524/cultural-florida-travel-blog)
 ![GitHub issues](https://img.shields.io/github/issues/quicksilver524/cultural-florida-travel-blog)
-![YouTube Video Views](https://img.shields.io/youtube/views/)
 
 # Cultural-Florida-Travel-Blog
 
@@ -19,7 +18,7 @@ This is a front and backend for a blog site to share different cultural areas in
 - [Questions](#questions)
 
 ## Walkthrough-Video
-https://youtu.be/LcHGuvC_Y4o
+https://user-images.githubusercontent.com/102430476/181919810-80397db9-48e9-4f8d-98a0-8f902e37f4c7.mp4
 
 ## Installation
 
