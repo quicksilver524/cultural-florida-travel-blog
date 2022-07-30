@@ -14,6 +14,7 @@ This is a front and backend for a blog site to share different cultural areas in
 - [Usage](#usage)
 - [Walkthrough-Video](#Walkthrough-Video)
 - [Instructions](#instructions)
+- [Step-10-website-heroku-deployment](#Step-10-website-heroku-deployment)
 - [Created by](#Created-by)
 - [Questions](#questions)
 
@@ -64,7 +65,7 @@ This project is developed to improve learning about Florida and its many unique 
 
 * ![step-9](images/step-9.png)
 
-* Step 10: You can create, edit, and delete your posts; upvote, leave comments, login, signup, and logout.
+- Step-10-website-heroku-deployment: You can create, edit, and delete your posts; upvote, leave comments, login, signup, and logout.
   you can only comment if logged in but you can view comments from those who previously commented without loging in. Only the admin and the user can modify posts and comments after posted.
   [To view our page](https://calm-eyrie-85145.herokuapp.com/)
 
