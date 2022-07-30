@@ -1,7 +1,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/quicksilver524/cultural-florida-travel-blog)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/quicksilver524/cultural-florida-travel-blog)
 ![GitHub issues](https://img.shields.io/github/issues/quicksilver524/cultural-florida-travel-blog)
-![YouTube Video Views](https://img.shields.io/youtube/views/SdRvP-2GKzY?label=YT%20Views&logo=youtube&logoColor=red&style=flat-square)
+![YouTube Video Views](https://img.shields.io/youtube/views/LcHGuvC_Y4o?label=YT%20Views&logo=youtube&logoColor=red&style=flat-square)
 
 # Cultural-Florida-Travel-Blog
 
