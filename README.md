@@ -19,7 +19,7 @@ This is a front and backend for a blog site to share different cultural areas in
 - [Questions](#questions)
 
 ## Walkthrough-Video
-[(https://youtu.be/LcHGuvC_Y4o)](https://youtu.be/LcHGuvC_Y4o)
+https://youtu.be/LcHGuvC_Y4o
 
 ## Installation
 
