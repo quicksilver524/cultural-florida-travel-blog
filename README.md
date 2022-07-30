@@ -21,6 +21,7 @@ This is a front and backend for a blog site to share different cultural areas in
 
 ## Walkthrough-Video
 https://user-images.githubusercontent.com/102430476/181919810-80397db9-48e9-4f8d-98a0-8f902e37f4c7.mp4
+  [Youtube Channel](https://www.youtube.com/watch?v=LcHGuvC_Y4o)
 
 ## Installation
 
@@ -71,7 +72,7 @@ This project is developed to improve learning about Florida and its many unique 
     you can only comment if logged in but you can view comments from those who previously commented without loging in. Only the admin and the user can modify posts and     comments after posted.
     
   [To view our page](https://calm-eyrie-85145.herokuapp.com/)
-  [Youtube Channel](https://www.youtube.com/watch?v=LcHGuvC_Y4o)
+
 
 
 
