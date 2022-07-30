@@ -24,7 +24,7 @@ This is a front and backend for a blog site to share different cultural areas in
 https://user-images.githubusercontent.com/102430476/181919810-80397db9-48e9-4f8d-98a0-8f902e37f4c7.mp4
 
 ## Youtube-page
-  [Youtube Channel](https://www.youtube.com/watch?v=LcHGuvC_Y4o)
+ - [Youtube Channel](https://www.youtube.com/watch?v=LcHGuvC_Y4o)
 
 ## Installation
 
