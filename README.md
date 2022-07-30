@@ -13,12 +13,12 @@ This is a front and backend for a blog site to share different cultural areas in
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Walkthrough Video](#Walkthrough Video and functionality)
+- [Walkthrough-Video](#Walkthrough-Video)
 - [Instructions](#instructions)
 - [Created by](#Created-by)
 - [Questions](#questions)
 
-## Walkthrough Video and functionality
+## Walkthrough-Video
 https://youtu.be/LcHGuvC_Y4o
 
 ## Installation
