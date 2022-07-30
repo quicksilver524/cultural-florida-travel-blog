@@ -1,6 +1,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/quicksilver524/cultural-florida-travel-blog)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/quicksilver524/cultural-florida-travel-blog)
 ![GitHub issues](https://img.shields.io/github/issues/quicksilver524/cultural-florida-travel-blog)
+![YouTube Video Views](https://img.shields.io/youtube/views/SdRvP-2GKzY?label=YT%20Views&logo=youtube&logoColor=red&style=flat-square)
 
 # Cultural-Florida-Travel-Blog
 
@@ -66,11 +67,12 @@ This project is developed to improve learning about Florida and its many unique 
 * ![step-9](images/step-9.png)
 
 ## Step-10-website-heroku-deployment 
-
-  -You can create, edit, and delete your posts; upvote, leave comments, login, signup, and logout.
+ - You can create, edit, and delete your posts; upvote, leave comments, login, signup, and logout.
     you can only comment if logged in but you can view comments from those who previously commented without loging in. Only the admin and the user can modify posts and     comments after posted.
     
   [To view our page](https://calm-eyrie-85145.herokuapp.com/)
+  [Youtube Channel](https://www.youtube.com/watch?v=LcHGuvC_Y4o)
+
 
 
 
